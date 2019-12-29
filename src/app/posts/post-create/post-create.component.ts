@@ -11,6 +11,6 @@ export class PostCreateComponent {
 
   onAddPost() {
 
-    alert('Post Agregado!!');
+    alert('Post Agregado!!!');
   }
 }
