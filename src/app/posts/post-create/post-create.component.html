@@ -1,4 +1,10 @@
-<h2>Creacion de Post</h2>
-<textarea cols = "100" rows="10"></textarea>
-<hr>
-<button (click)="onAddPost()">Guardar Post</button>
+<h2> Creacion de Post </h2>
+<mat-card>
+  <mat-form-field>
+    <textarea matInput rows="0" [(ngModel)]="enteredValue"></textarea>
+  </mat-form-field>
+  <button
+   mat-raised-button
+   color="primary"
+   (click)="onAddPost()">Guardar Post</button>
+</mat-card>
