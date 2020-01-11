@@ -1,7 +1,10 @@
 <h2> Creacion de Post </h2>
 <mat-card>
   <mat-form-field>
-    <textarea matInput rows="0" [(ngModel)]="enteredValue"></textarea>
+    <input matInput type="text" [(ngModel)]="enteredTitle">
+  </mat-form-field>
+  <mat-form-field>
+    <textarea matInput rows="0" [(ngModel)]="enteredContent"></textarea>
   </mat-form-field>
   <button
    mat-raised-button
