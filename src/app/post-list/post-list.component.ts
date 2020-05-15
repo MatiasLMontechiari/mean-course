@@ -11,6 +11,6 @@ export class PostListComponent {
   //  {title: 'Primer Post', content: 'Este es el primer post!!'},
   //  {title: 'Segundo Post', content: 'Este es el segundo post!!'},
   //  {title: 'Tercer Post', content: 'Este es el tercer post!!'}
-  // ];
+  //   ];
   @Input() posts = [];
 }
